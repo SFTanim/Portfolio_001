@@ -177,6 +177,7 @@ main {
 /* _________________________________________RESUME */
 .resume_coloum{
     padding: 20px;
+    text-align: center;
 }
 .resume_title{
     color: #474747;
@@ -206,4 +207,12 @@ main {
 .summary_button{
     margin-top: 50px;
     text-align: center;
+}
+
+/* __________________________________________FOOTER */
+footer{
+    margin-top: 100px;
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
 }
