@@ -21,6 +21,8 @@ body {
 /* ______________________________Navigation Related Style */
 /* _____________________________________HEader */
 .main_header {
+    margin: 0 auto;
+    max-width: 2000px;
     /* border: 1px solid black; */
     background-color: #FFF8F3;
 }
@@ -135,10 +137,11 @@ main {
     text-align: center;
 }
 
-.info_title{
-    color:#474747;
+.info_title {
+    color: #474747;
     font-size: 20px;
 }
+
 .info_description {
     color: black;
     font-size: 20px;
@@ -149,18 +152,23 @@ main {
 #what_i_do_description {
     padding: 30px 150px;
 }
-.what_i_do{
+
+.what_i_do {
     margin: 150px 0px;
     border: 2px solid black;
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
 }
-.skills_container{
+
+.skills_container {
     display: flex;
     justify-content: space-evenly;
 }
-.skills{
+
+.skills {
+    box-shadow: 0px 6px 70px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
     background-color: white;
     padding: 20px;
     margin: 30px;
