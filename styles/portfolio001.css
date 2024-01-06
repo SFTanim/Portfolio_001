@@ -97,11 +97,12 @@ p {
 }
 
 /* ___________________________ MAIN */
-/* main {
-    width: 1600px;
-    height: 4256px;
+main {
+    max-width: 1640px;
+    margin: 0 auto;
     border: 2px solid black;
-} */
+}
+
 /* ___________________________ Shared Style in main */
 .section_title {
     text-align: center;
@@ -109,17 +110,58 @@ p {
     font-size: 40px;
     font-weight: 700;
 }
+
 .sec_description {
     text-align: center;
     font-size: 28px;
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 /* ___________________________ ABOUT */
 .about {
-    margin: 150px 230px;
+    margin: 150px 0px;
     border: 2px solid black;
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
+}
+
+.about_info_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_info {
+    text-align: center;
+}
+
+.info_title{
+    color:#474747;
+    font-size: 20px;
+}
+.info_description {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* ___________________________________What i do */
+#what_i_do_description {
+    padding: 30px 150px;
+}
+.what_i_do{
+    margin: 150px 0px;
+    border: 2px solid black;
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+.skills_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skills{
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
 }
