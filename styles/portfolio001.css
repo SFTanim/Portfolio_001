@@ -173,3 +173,37 @@ main {
     padding: 20px;
     margin: 30px;
 }
+
+/* _________________________________________RESUME */
+.resume_coloum{
+    padding: 20px;
+}
+.resume_title{
+    color: #474747;
+    font-size: 40px;
+    font-weight: 700;
+}
+.resume_container{
+    display: flex;
+    gap: 50px;
+}
+.resume_container hr{
+    margin: 30px;
+}
+.resume_item_title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume_item_institute{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.resume_item_des, .resume_item_institute{
+    color: #757575;
+}
+.summary_button{
+    margin-top: 50px;
+    text-align: center;
+}
