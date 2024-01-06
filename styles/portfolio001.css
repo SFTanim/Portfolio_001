@@ -102,7 +102,7 @@ p {
 main {
     max-width: 1640px;
     margin: 0 auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 /* ___________________________ Shared Style in main */
@@ -122,7 +122,7 @@ main {
 /* ___________________________ ABOUT */
 .about {
     margin: 150px 0px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
@@ -155,7 +155,7 @@ main {
 
 .what_i_do {
     margin: 150px 0px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
