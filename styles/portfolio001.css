@@ -1,12 +1,31 @@
+/* Commmon Font style */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.orange_color{
+    color: #FD6E0A;
+}
+.btn_hire{
+    background-color: #FD6E0A;        
+}
 
-nav{
+/* Navigation Related Style */
+h3{
+    font-size: 45px;
+}
+nav {
     display: flex;
 }
-nav > ul{
+nav>ul {
     display: flex;
 }
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
-
+}
+nav li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #474747;
 }
